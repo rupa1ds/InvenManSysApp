@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ivs</string>
+    <string name="col1">Product Id</string>
+    <string name="col2">Product</string>
+    <string name="col3">Price</string>
+    <!--row1-->
+    <string name="row1">01</string>
+    <string name="row2">Ice Cream</string>
+    <string name="row3">25</string>
+    <!--row2-->
+    <string name="row4">02</string>
+    <string name="row5">Chips</string>
+    <string name="row6">10</string>
+    <!--row2=3-->
+    <string name="row7">03</string>
+    <string name="row8">Coke</string>
+    <string name="row9">20</string>
+    <!--row4-->
+    <string name="row10">04</string>
+    <string name="row11">Cake</string>
+    <string name="row12">100</string>
+    <!--row5-->
+    <string name="row13">05</string>
+    <string name="row14">Chocolate</string>
+    <string name="row15">15</string>
+</resources>

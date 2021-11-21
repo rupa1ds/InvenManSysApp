@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ivs">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Ivs">
+        <activity
+            android:name=".Ivs10HisTrans"
+            android:exported="true" />
+        <activity
+            android:name=".Ivs11Low"
+            android:exported="true" />
+        <activity
+            android:name=".Ivs9AddTransaction"
+            android:exported="true" />
+        <activity
+            android:name=".Ivs8DeleteProduct"
+            android:exported="true" />
+        <activity
+            android:name=".Ivs7AddProduct"
+            android:exported="true" />
+        <activity
+            android:name=".Ivs5DeshBoard"
+            android:exported="true" />
+        <activity
+            android:name=".Ivs4SignIn"
+            android:exported="true" />
+        <activity
+            android:name=".Ivs3SignUp"
+            android:exported="true" />
+        <activity
+            android:name=".Ivs2AccountPage"
+            android:exported="true" />
+        <activity
+            android:name=".Ivs1SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

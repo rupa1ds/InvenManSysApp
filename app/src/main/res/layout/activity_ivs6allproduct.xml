@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#D7F1F7"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ivs6AllProduct">
+
+    <Button
+        android:id="@+id/addp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#2c8c08"
+        android:text="Add Item" />
+
+    <TextView
+        android:="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Available Product"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="45dp"
+        android:textAlignment="center"
+       />
+
+    </LinearLayout>
+

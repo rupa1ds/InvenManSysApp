@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ivs/app/src/main/res/layout/activity_add6.xml" value="0.209375" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ivs/app/src/main/res/layout/activity_addp6.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ivs/app/src/main/res/layout/activity_addp7.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ivs/app/src/main/res/layout/activity_all_transaction.xml" value="0.209375" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ivs/app/src/main/res/layout/activity_delete_product8.xml" value="0.22" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ivs/app/src/main/res/layout/activity_ivs10_his_trans.xml" value="0.22" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ivs/app/src/main/res/layout/activity_ivs10historytransaction.xml" value="0.18659420289855072" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ivs/app/src/main/res/layout/activity_ivs11_low.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ivs/app/src/main/res/layout/activity_ivs1splashscreen.xml" value="0.22" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ivs/app/src/main/res/layout/activity_ivs2accountpage.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ivs/app/src/main/res/layout/activity_ivs3signup.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ivs/app/src/main/res/layout/activity_ivs4signin.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ivs/app/src/main/res/layout/activity_ivs5deshboard.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ivs/app/src/main/res/layout/activity_ivs6allproduct.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ivs/app/src/main/res/layout/activity_ivs7addproduct.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ivs/app/src/main/res/layout/activity_ivs8deleteproduct.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ivs/app/src/main/res/layout/activity_ivs9addtransaction.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ivs/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ivs/app/src/main/res/layout/activity_main2.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ivs/app/src/main/res/layout/activity_pag2.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ivs/app/src/main/res/layout/activity_pag3.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ivs/app/src/main/res/layout/activity_pag5desh.xml" value="0.22" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ivs/app/src/main/res/layout/activity_prd6.xml" value="0.33" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ivs/app/src/main/res/layout/activity_signin.xml" value="0.17889492753623187" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
