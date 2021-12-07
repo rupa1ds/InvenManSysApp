@@ -1,107 +1,150 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="#D7F1F7"
+    android:background="@drawable/background"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
     tools:context=".Ivs5DeshBoard">
 
+
     <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="323dp"
-        android:layout_height="217dp"
-        android:layout_marginBottom="20dp"
-        app:srcCompat="@drawable/ivm" />
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginBottom="30dp"
-        >
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
-
-        <Button
-            android:id="@+id/button1"
-            android:layout_width="150dp"
-            android:layout_height="115dp"
-            android:backgroundTint="#fff"
-            android:text="Add  Product"
-            android:textColor="@color/black"
-            android:textSize="15sp"
-            />
-
-        <Button
-            android:id="@+id/addp"
-            android:layout_width="150dp"
-            android:layout_height="115dp"
-            android:backgroundTint="#fff"
-            android:layout_marginLeft="15dp"
-            android:text="Available Product"
-            android:textColor="@color/black"
-            android:textSize="15sp"
-            />
-    </LinearLayout>
-<LinearLayout
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal"
-    >
+        android:id="@+id/imglogo1"
+        android:layout_width="311dp"
+        android:layout_height="166dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ivm"
+        tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/button3"
-        android:layout_width="150dp"
-        android:layout_height="115dp"
-        android:backgroundTint="#fff"
+        android:id="@+id/btn1"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="10dp"
+        android:drawableTop="@drawable/av"
+        android:backgroundTint="#FFC30F"
+        android:text="Available Product"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btn3"
+        app:layout_constraintEnd_toStartOf="@+id/btn2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imglogo1"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#FF5733"
+        android:drawableTop="@drawable/adp"
+        android:text="Add Product"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btn4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn1"
+        app:layout_constraintTop_toBottomOf="@+id/imglogo1"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#C70039"
+        android:drawableTop="@drawable/dl"
         android:text="Delete Product"
         android:textColor="@color/black"
-        android:textSize="15sp"
-         />
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btn5"
+        app:layout_constraintEnd_toStartOf="@+id/btn4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn1"
+        tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/button4"
-        android:layout_width="150dp"
-        android:layout_height="115dp"
-        android:backgroundTint="#fff"
-        android:layout_marginLeft="15dp"
-        android:text="Add Transaction"
+        android:id="@+id/btn4"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#3D91B8"
+        android:drawableTop="@drawable/hi"
+        android:text="History Transaction"
         android:textColor="@color/black"
-        android:textSize="15sp"
-         />
-</LinearLayout>
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btn6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/btn3"
+        app:layout_constraintTop_toBottomOf="@+id/btn2"
+        tools:ignore="MissingConstraints" />
 
-        <Button
-            android:id="@+id/button5"
-            android:layout_width="150dp"
-            android:layout_height="115dp"
-            android:backgroundTint="#fff"
-            android:text="History Transaction"
-            android:textColor="@color/black"
-            android:textSize="15sp"
-            />
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="150dp"
+        android:backgroundTint="#BB3E3E"
+        android:drawableTop="@drawable/ls"
+        android:text="Low Stock"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn3"
+        tools:ignore="MissingConstraints" />
 
-        <Button
-            android:id="@+id/button6"
-            android:layout_width="150dp"
-            android:layout_height="115dp"
-            android:backgroundTint="#fff"
-            android:text="Low Stock"
-            android:layout_marginLeft="15dp"
-            android:textColor="@color/black"
-            android:textSize="15sp"
-            />
-    </LinearLayout>
-    </LinearLayout>
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="150dp"
+        android:backgroundTint="#7CCCE5"
+        android:drawableTop="@drawable/sp"
+        android:text="Sell Product"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn5"
+        app:layout_constraintTop_toBottomOf="@+id/btn4"
+        tools:ignore="MissingConstraints" />
 
-</LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

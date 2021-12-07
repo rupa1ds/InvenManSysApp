@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#D7F1F7"
+    android:background="@drawable/background"
     tools:context=".Ivs10HisTrans">
 
 
@@ -13,9 +13,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="History Transaction"
-        android:textColor="@color/black"
-        android:textSize="40sp"
+        android:textColor="#2c8c08"
+        android:textSize="35sp"
+        android:textStyle="bold"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteX="50dp"
         tools:layout_editor_absoluteY="80dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

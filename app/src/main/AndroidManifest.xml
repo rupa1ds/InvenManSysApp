@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Ivs">
         <activity
+            android:name=".Ivs12SellProduct"
+            android:exported="false" />
+        <activity
             android:name=".Ivs10HisTrans"
             android:exported="true" />
         <activity

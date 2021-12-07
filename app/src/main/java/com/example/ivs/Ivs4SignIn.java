@@ -12,7 +12,9 @@ public class Ivs4SignIn extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_ivs4signin);
+
         Button signin2 = findViewById(R.id.signin2);
         signin2.setOnClickListener(new View.OnClickListener() {
             @Override

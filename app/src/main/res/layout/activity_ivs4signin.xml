@@ -2,7 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="#D7F1F7"
+    android:background="@drawable/background"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Ivs4SignIn">
@@ -11,6 +11,7 @@
         android:id="@+id/imageView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
         android:layout_marginBottom="452dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -18,14 +19,26 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ivm" />
 
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="51dp"
+        android:layout_marginEnd="300dp"
+        android:text="Email"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        tools:ignore="MissingConstraints" />
+
     <EditText
         android:id="@+id/editTextTextEmailAddress"
         android:layout_width="309dp"
         android:layout_height="50dp"
-        android:layout_marginStart="51dp"
-        android:layout_marginTop="22dp"
-        android:layout_marginEnd="51dp"
-        android:layout_marginBottom="414dp"
+        android:layout_marginBottom="340dp"
         android:ems="10"
         android:hint="Email"
         android:inputType="textEmailAddress"
@@ -36,14 +49,30 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
         tools:ignore="MissingConstraints,UnknownIdInLayout" />
 
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="270dp"
+        android:layout_marginBottom="7dp"
+        android:text="Password"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
     <EditText
         android:id="@+id/editTextTextPassword"
         android:layout_width="309dp"
         android:layout_height="50dp"
-        android:layout_marginStart="51dp"
-        android:layout_marginTop="22dp"
-        android:layout_marginEnd="51dp"
-        android:layout_marginBottom="342dp"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
@@ -52,16 +81,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintVertical_bias="0.193"
         tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/signin2"
         android:layout_width="187dp"
         android:layout_height="66dp"
-        android:layout_marginStart="114dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="114dp"
-        android:layout_marginBottom="263dp"
         android:backgroundTint="#2c8c08"
         android:text="Sign In"
         android:textSize="20sp"
@@ -69,6 +95,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+        app:layout_constraintVertical_bias="0.154"
         tools:ignore="MissingConstraints" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

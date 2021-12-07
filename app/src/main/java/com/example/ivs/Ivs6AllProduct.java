@@ -17,6 +17,7 @@ public class Ivs6AllProduct extends AppCompatActivity {
         getSupportActionBar().hide();
 
         Button addp2 = findViewById(R.id.addp2);
+        Button delp2 = findViewById(R.id.delp2);
         addp2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -24,6 +25,13 @@ public class Ivs6AllProduct extends AppCompatActivity {
                 startActivity(rupa);
             }
             });
+        delp2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent rupa = new Intent(Ivs6AllProduct.this, Ivs8DeleteProduct.class);
+                startActivity(rupa);
+            }
+        });
 
     }
 }
