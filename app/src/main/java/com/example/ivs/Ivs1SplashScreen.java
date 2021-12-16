@@ -16,13 +16,5 @@ public class Ivs1SplashScreen extends AppCompatActivity {
 
         getSupportActionBar().hide();
 
-        Button next = findViewById(R.id.next);
-        next.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent rupa = new Intent(Ivs1SplashScreen.this,Ivs2AccountPage.class);
-                startActivity(rupa);
-            }
-        });
     }
 }
