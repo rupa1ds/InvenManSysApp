@@ -15,6 +15,5 @@ public class Ivs1SplashScreen extends AppCompatActivity {
         setContentView(R.layout.activity_ivs1splashscreen);
 
         getSupportActionBar().hide();
-
     }
 }
