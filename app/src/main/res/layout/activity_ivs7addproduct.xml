@@ -151,6 +151,7 @@
         android:orientation="vertical"
         android:layout_gravity="center"
         >
+
     <Button
         android:id="@+id/addbut"
         android:layout_width="195dp"
