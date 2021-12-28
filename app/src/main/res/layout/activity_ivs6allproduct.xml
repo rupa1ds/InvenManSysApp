@@ -20,7 +20,7 @@
         tools:layout_editor_absoluteY="68dp" />
 
     <Button
-        android:id="@+id/addp2"
+        android:id="@+id/addproduct"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/green"
@@ -32,7 +32,7 @@
         tools:layout_editor_absoluteY="595dp" />
 
     <Button
-        android:id="@+id/delp2"
+        android:id="@+id/delproduct"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/green"
