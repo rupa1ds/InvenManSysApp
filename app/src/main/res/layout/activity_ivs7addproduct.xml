@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="@drawable/background"
+    android:background="@drawable/bkg2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -43,7 +43,7 @@
             android:layout_marginLeft="50sp">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/pdt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Product Name :"
@@ -52,7 +52,7 @@
         tools:ignore="MissingConstraints" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName7"
+            android:id="@+id/pst1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -70,7 +70,7 @@
             android:layout_marginLeft="50sp">
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/pid"
         android:layout_width="128dp"
         android:layout_height="21dp"
         android:text="Product Id        :"
@@ -79,7 +79,7 @@
         tools:ignore="MissingConstraints" />
 
         <EditText
-            android:id="@+id/editTextNumber2"
+            android:id="@+id/pid1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -97,7 +97,7 @@
             android:layout_marginLeft="50sp">
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/brate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Buy Rate           :"
@@ -106,7 +106,7 @@
         tools:ignore="MissingConstraints" />
 
         <EditText
-            android:id="@+id/editTextNumber"
+            android:id="@+id/brate1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="Buy Rate"
@@ -117,6 +117,35 @@
 
         </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="50sp">
+
+        <TextView
+            android:id="@+id/qty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quantity            :"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/qty1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Quantity here"
+            android:inputType="number"
+            android:textSize="16dp"
+            android:layout_marginLeft="17dp"
+            tools:ignore="MissingConstraints" />
+
+    </LinearLayout>
+
+
+
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -125,7 +154,7 @@
             android:layout_marginLeft="50sp">
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/dsp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Discription :"
@@ -134,7 +163,7 @@
         tools:ignore="MissingConstraints" />
 
         <EditText
-            android:id="@+id/editTextTextMultiLine2"
+            android:id="@+id/dsp1"
             android:layout_width="312dp"
             android:layout_height="89dp"
             android:ems="10"
@@ -153,7 +182,7 @@
         >
 
     <Button
-        android:id="@+id/addbut"
+        android:id="@+id/additem"
         android:layout_width="195dp"
         android:layout_height="65dp"
         android:layout_margin="15dp"

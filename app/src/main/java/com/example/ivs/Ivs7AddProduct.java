@@ -16,12 +16,13 @@ public class Ivs7AddProduct extends AppCompatActivity {
 
         getSupportActionBar().hide();
 
-        Button addbut = findViewById(R.id.addbut);
-        addbut.setOnClickListener(new View.OnClickListener() {
+        Button addbtn = findViewById(R.id.additem);
+        addbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent rupa = new Intent(Ivs7AddProduct.this,Ivs6AllProduct.class);
                 startActivity(rupa);
+                finish();
             }
         });
     }
